@@ -1,14 +1,16 @@
+/* caratteristiche generiche */
 *{
     margin: 0;
     padding: 0;
 }
-
-/* caratteristiche generiche */
-
+body{
+    width:1120px;
+    margin-left: 5px;
+}
 h4{
     color: #8e8e8e;
-    font-size: 20px;
 }
+
 
 /* intestazione superiore */
 .intestazione{
@@ -18,55 +20,101 @@ h4{
     background-size: 30%;
 }
 
-#logo {
-    height: 50px;
-    position: relative;
-    top: 50px;
-    left: 10px;
-}
+    #logo {
+        height: 50px;
+        position: relative;
+        top: 50px;
+        left: 10px;
+    }
 
-/* titolo */
-.titolo{
+    /* titolo */
+    .titolo{
+        margin-top: 20px;
+        color: #8e8e8e;
+    }
+    .titolo h1{
+        color: black;
+        font-size: 40px;
+    }
+
+    .titolo h4 b{
+        color: #5ac3ce;
+    }
+
+/* main */
+    main{
     margin-top: 20px;
-    color: #8e8e8e;
-}
-.titolo h1{
-    color: black;
-    font-size: 40px;
-}
+    }
+    section{
+        margin-top: 20px;
+    }
+    /* immagine con descrizione */
+    .caption{
+        font-size: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    /* primo e secondo testo */
+    .evidenziato{
+        background-color: yellow;
+        font-weight: lighter;
+    }
 
-.titolo h4 b{
-    color: #5ac3ce;
-}
+    /* elenco */
+    .elenco{
+        margin-top: 25px;
+        margin-left:15px;
+    }
+
+    /* tabella */
+
+    table{
+        border-collapse: collapse;
+    }
+    th{
+        min-width: 200px;
+        text-align: left;
+        padding-left: 2px;
+        color: white;
+        background-color: #1eabe0;
+    }
+    .colore-azzurro{
+        background-color:#b1e6f2 ;
+    }
+
+
+   
+
+
 
 /* footer */
 
-footer{
-    margin-top: 20px;
-}
-footer div{
-    margin-top: 10px;
-    height: 200px;
-    width: 250px;
-    background-color: #4ea1ff;
-    background-size: cover;
+    footer{
+        margin-top: 20px;
+    }
+    footer div{
+        margin-top: 10px;
+        height: 200px;
+        width: 250px;
+        background-color: #4ea1ff;
+        background-size: cover;
 
 
-}
+    }
 
-footer p {
-    padding-top: 10px;
-    padding-left: 5px;
-    font-size: 20px;
-    color: white;
-    font-weight: bolder;
+    footer p {
+        padding-top: 10px;
+        padding-left: 5px;
+        font-size: 20px;
+        color: white;
+        font-weight: bolder;
 
-}
-#articolo1{
-    background-image:url(../img/monitor.jpg);
-}
-#articolo2{
-    background-image:url(../img/graph.jpg);
-}
+    }
+    #articolo1{
+        background-image:url(../img/monitor.jpg);
+    }
+    #articolo2{
+        background-image:url(../img/graph.jpg);
+    }
 
 
