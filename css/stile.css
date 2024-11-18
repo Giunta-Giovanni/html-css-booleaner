@@ -8,11 +8,11 @@
     height: 100px;
     background-color:#4ea1ff;
     background-image: url(../img/pattern.png);
-    background-size: 50%;
+    background-size: 30%;
 }
 
 #logo {
-    height: 40px;
+    height: 50px;
     position: relative;
     top: 50px;
     left: 10px;
@@ -20,6 +20,7 @@
 
 /* titolo */
 .titolo{
+    margin-top: 20px;
     color: #8e8e8e;
 }
 .titolo h1{
