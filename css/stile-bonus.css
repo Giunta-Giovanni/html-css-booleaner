@@ -5,8 +5,9 @@
 }
 
 body{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
     
 }
 h4{
@@ -20,16 +21,15 @@ h4{
     background-color:#4ea1ff;
     background-image: url(../img/pattern.png);
     background-size: 20%;
-    margin-left: -100px;
-    margin-right: -100px;
+    margin-left: -5%;
+    margin-right: -5%;
 }
 
     #logo {
         height: 50px;
         position: relative;
         top: 50px;
-        left: 10px;
-        padding-left: 90px;
+        padding-left: 5%;
     }
 
     /* titolo */
