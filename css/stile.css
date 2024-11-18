@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* intestazione superiore */
 .intestazione{
     height: 100px;
     background-color:#4ea1ff;
@@ -10,4 +16,19 @@
     position: relative;
     top: 50px;
     left: 10px;
+}
+
+/* titolo */
+.titolo{
+    color: #8e8e8e;
+}
+.titolo h1{
+    color: black;
+    font-size: 40px;
+}
+.titolo h4{
+    font-size: 20px;
+}
+.titolo h4 b{
+    color: #5ac3ce;
 }
