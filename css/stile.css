@@ -11,9 +11,9 @@ h4{
     color: #8e8e8e;
 }
 
-
-/* intestazione superiore */
-.intestazione{
+/* Header */
+    /* intestazione superiore */
+    .intestazione{
     height: 100px;
     background-color:#4ea1ff;
     background-image: url(../img/pattern.png);
@@ -41,7 +41,7 @@ h4{
         color: #5ac3ce;
     }
 
-/* main */
+/* Main */
     main{
     margin-top: 20px;
     }
@@ -83,11 +83,7 @@ h4{
     }
 
 
-   
-
-
-
-/* footer */
+/* Footer */
 
     footer{
         margin-top: 20px;
@@ -98,8 +94,6 @@ h4{
         width: 250px;
         background-color: #4ea1ff;
         background-size: cover;
-
-
     }
 
     footer p {
